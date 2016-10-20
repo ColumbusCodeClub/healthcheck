@@ -1,0 +1,23 @@
+{
+  "name": "healthcheck",
+  "version": "1.0.0",
+  "description": "String Calculator in Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColumbusCodeClub/healthcheck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColumbusCodeClub/healthcheck/issues"
+  },
+  "homepage": "https://github.com/ColumbusCodeClub/healthcheck/#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
