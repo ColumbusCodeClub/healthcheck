@@ -4,7 +4,8 @@
   "description": "String Calculator in Node JS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec"
+    "test": "mocha spec",
+    "start": "node healthcheckHttpServer.js"
   },
   "repository": {
     "type": "git",
