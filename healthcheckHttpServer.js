@@ -12,4 +12,4 @@ function handleRequest(request, response){
 var server = http.createServer(handleRequest);
 
 //Lets start our server
-server.listen() ;
+server.listen(process.env.PORT || 3000) ;
