@@ -183,3 +183,7 @@ function buildResponse(sessionAttributes, speechletResponse) {
         response: speechletResponse
     };
 }
+
+export default function StatusHandler(event, context) {
+  return status(event, context)
+}
