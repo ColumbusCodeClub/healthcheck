@@ -1,3 +1,5 @@
+import StatusHandler from 'statusHandler'
+
 //Lets require/import the HTTP module
 var http = require('http');
 
@@ -6,6 +8,7 @@ const PORT=8080;
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
+    StatusHandler.handler(request, null)
     response.end('It Works!! Path Hit: ' + request.url);
 }
 
