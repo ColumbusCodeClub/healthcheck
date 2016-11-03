@@ -12,7 +12,7 @@
 
 StatusHandler = function() {
 
-  exports.handler = function (event, context) {
+  function handler (event, context) {
       try {
           console.log("event.session.application.applicationId=" + event.session.application.applicationId);
 
