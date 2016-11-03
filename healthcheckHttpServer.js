@@ -1,4 +1,5 @@
-import StatusHandler from 'statusHandler'
+// import StatusHandler from 'statusHandler' -- no ES6 :(
+var StatusHandler = require("statusHandler")
 
 //Lets require/import the HTTP module
 var http = require('http');
