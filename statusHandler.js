@@ -10,9 +10,9 @@
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
 // etc.) The JSON body of the request is provided in the event parameter.
 
-StatusHandler = function() {
+StatusHandler =  {
 
-   this.handler = function (event, context) {
+   handler = function (event, context) {
       try {
           console.log("event.session.application.applicationId=" + event.session.application.applicationId);
 
@@ -49,7 +49,6 @@ StatusHandler = function() {
       } catch (e) {
           context.fail("Exception: " + e);
       }
-  };
 
   /**
    * Called when the session starts.
@@ -187,6 +186,6 @@ StatusHandler = function() {
       };
   }
 
-  }
+}
 
-module.exports = StatusHandler
+// module.exports = StatusHandler;

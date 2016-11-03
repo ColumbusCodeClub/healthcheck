@@ -8,7 +8,7 @@ var http = require('http');
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-    StatusHandler().handler(request, null)
+    StatusHandler.handler(request, null)
     response.end('It Works!! Path Hit: ' + request.url);
 }
 
