@@ -12,7 +12,7 @@
 
 StatusHandler = function() {
 
-  function handler (event, context) {
+   this.handler = function (event, context) {
       try {
           console.log("event.session.application.applicationId=" + event.session.application.applicationId);
 
